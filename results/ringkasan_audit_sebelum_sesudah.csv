@@ -1,0 +1,13 @@
+﻿Temuan,Sebelum Cleaning,Tindakan Perbaikan,Setelah Cleaning,Status
+Tanggal kosong atau tidak valid,64,Pemulihan tanggal berdasarkan PDF,0,VALID
+Tanggal di luar periode,5,Koreksi tanggal berdasarkan sumber PDF,0,VALID
+Resi konflik platform,10,Standardisasi platform berdasarkan pola resi dan seleksi duplikasi lintas platform,0,VALID
+Resi tidak dikenali,0,Standardisasi pola nomor resi,0,VALID
+Return tanpa pasangan,64,Dipertahankan karena pembelian dapat berasal dari periode sebelumnya,63,DIPERTAHANKAN
+Return melebihi pembelian,0,Validasi Qty pembelian dan Return,0,VALID
+Qty bermasalah,3,Pemulihan Qty berdasarkan PDF dan imputasi sesuai aturan bisnis,0,VALID
+Qty lebih dari 1,87,Dipertahankan sebagai pembelian beberapa unit,82,DIPERTAHANKAN
+Jenis knalpot kosong,169,Pemulihan dan standardisasi atribut produk,0,VALID
+Tipe motor bermasalah,139,"Standardisasi kamus motor, koreksi NMAX NEW, dan klasifikasi 15 aksesori moncong",0,VALID
+Baris dalam kelompok duplikat,80,Mengeluarkan salinan lintas platform dan mempertahankan resi ganda yang valid,40,DIPERTAHANKAN
+Moncong Shijiro dan Kinochi bersamaan,20,Koreksi berdasarkan screening termasuk KINOCHI NON BAUT,0,VALID
